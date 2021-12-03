@@ -1,0 +1,36 @@
+<template>
+    <div class="flowruntimeBody">
+        <b>Applicant Personal Details</b>
+        <lightning-input type="text" label="First Name" required="true" value={loanRecord.FirstName__c}
+                         onchange={firstNameChange}></lightning-input>
+        <lightning-input type="text" label="Last Name" required="true" value={loanRecord.LastName__c}
+                         onchange={lastNameChange}></lightning-input>
+        <lightning-input type="email" label="Email Address" required="true" value={loanRecord.Email__c}
+                         onchange={emailChange}></lightning-input>
+        <lightning-input type="tel" label="Phone Number" required="true" value={loanRecord.Phone_Number__c}
+                         onchange={phoneChange}></lightning-input>
+        <br/>
+        <b>Financial Data</b>
+        <lightning-input type="number" label="Desired Loan Amount" required="true"
+                         value={loanRecord.Desire_Loan_Amount__c} onchange={amountChange} min="1"
+                         max="10000000"></lightning-input>
+        <lightning-combobox
+                name="progress"
+                label="Currency"
+                required="true"
+                value={currency}
+                options={currencyOptions}>
+        </lightning-combobox>
+        <lightning-input type="date" label="Loan Due Date" required="true" value={loanRecord.Payment_Terms__c}
+                         onchange={termsChange}></lightning-input>
+        <br/>
+        <lightning-button variant="brand" label={buttonLabel} title="Primary action" onclick={handleSaveClick}
+                          class=slds-m-vertical_medium></lightning-button>
+    </div>
+
+    <template if:true={spinner}>
+        <div class="exampleHolder">
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,38 @@
+{
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "05efadac-dd19-4ada-b390-48051ed7115d",
+  "label" : "Loan Related List",
+  "regions" : [ {
+    "id" : "c17824ab-9bd0-4bae-8b86-2436658e5a52",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "88753f33-d728-47c4-9919-1884b92c6fa9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "acf39be1-9137-4484-a70b-38ae6f6b3d10",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "efc348be-21a2-4a60-bba0-f063c7a0f411",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a0T"
+}

@@ -1,0 +1,10 @@
+<template>
+    <lightning-accordion allow-multiple-sections-open
+                         onsectiontoggle={handleSectionToggle}
+                         active-section-name="A"
+                         class="slds-m-bottom_medium">
+        <lightning-accordion-section name="A" label={sectionHeader}>
+            <lightning-formatted-rich-text value={htmlText} style="font-size: 1rem"></lightning-formatted-rich-text>
+        </lightning-accordion-section>
+    </lightning-accordion>
+</template>

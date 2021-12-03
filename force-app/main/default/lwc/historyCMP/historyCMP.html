@@ -1,0 +1,21 @@
+<template>
+    <div>
+        <p><b class="header">History</b></p>
+        <p></p>
+        <p></p>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; <span class="currentSession">Only available in current session.</span>
+            <a onclick={restartSession} class="restartSession" href="/myfinance">&nbsp;Restart
+                session</a></p>
+        <p></p>
+    </div>
+    <div class="datatableBlock">
+        <lightning-datatable
+                key-field="id"
+                hide-checkbox-column
+                load-more-offset="10"
+                wrap-text-max-lines="3"
+                data={data}
+                columns={columns}>
+        </lightning-datatable>
+    </div>
+</template>

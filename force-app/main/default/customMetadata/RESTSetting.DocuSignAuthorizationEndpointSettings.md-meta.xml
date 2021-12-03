@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>DocuSignAuthorizationEndpointSettings</label>
+    <protected>false</protected>
+    <values>
+        <field>client_id__c</field>
+        <value xsi:type="xsd:string">client_id</value>
+    </values>
+    <values>
+        <field>client_secret__c</field>
+        <value xsi:type="xsd:string">client_secret</value>
+    </values>
+    <values>
+        <field>grant_type__c</field>
+        <value xsi:type="xsd:string">password</value>
+    </values>
+    <values>
+        <field>password__c</field>
+        <value xsi:type="xsd:string">password</value>
+    </values>
+    <values>
+        <field>setEndpoint__c</field>
+        <value xsi:type="xsd:string">https://login.salesforce.com/services/oauth2/token</value>
+    </values>
+    <values>
+        <field>setHeaderApp__c</field>
+        <value xsi:type="xsd:string">application/x-www-form-urlencoded</value>
+    </values>
+    <values>
+        <field>setHeaderType__c</field>
+        <value xsi:type="xsd:string">Content-Type</value>
+    </values>
+    <values>
+        <field>setMethod__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>username__c</field>
+        <value xsi:type="xsd:string">username</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,49 @@
+<template>
+    <div class="flowruntimeBody">
+        <b>Sender Information</b>
+        <lightning-input type="text" label="Sender's First Name" required="true" value={wireTransferRecord.FirstName__c}
+                         onchange={senderFirstNameChange}></lightning-input>
+        <lightning-input type="text" label="Sender's Last Name" required="true" value={wireTransferRecord.LastName__c}
+                         onchange={senderLastNameChange}></lightning-input>
+        <lightning-input type="text" label="Sender's Account Number" required="true"
+                         value={wireTransferRecord.Account_Number__c}
+                         onchange={senderAccountNumberChange}></lightning-input>
+        <lightning-input type="number" label="Amount of Transfer" required="true"
+                         value={wireTransferRecord.Amount_of_Transfer__c} onchange={amountOfTransferChange} min="1"
+                         max="10000000"></lightning-input>
+        <lightning-combobox
+                name="progress"
+                label="Currency"
+                required="true"
+                value={currency}
+                options={currencyOptions}>
+        </lightning-combobox>
+        <lightning-input type="date" label="Date" required="true" value={wireTransferRecord.Date__c}
+                         onchange={dateChange}></lightning-input>
+
+        <br/>
+        <b>Receiver's Information</b>
+        <lightning-input type="text" label="Receiver's First Name" required="true"
+                         value={wireTransferRecord.Reciever_FirstName__c}
+                         onchange={recieverFirstNameChange}></lightning-input>
+        <lightning-input type="text" label="Receiver's Last Name" required="true"
+                         value={wireTransferRecord.Receiver_LastName__c}
+                         onchange={recieverLastNameChange}></lightning-input>
+        <lightning-input type="text" label="Receiver's Bank Name" required="true" value={wireTransferRecord.Bank_Name__c}
+                         onchange={bankNameChange}></lightning-input>
+        <lightning-input type="text" label="Receiver's Account Number" required="true"
+                         value={wireTransferRecord.Reciever_Account_Number__c}
+                         onchange={recieverAccountNumberChange}></lightning-input>
+        <lightning-input type="text" label="Routing number" required="true"
+                         value={wireTransferRecord.Routing_Number__c} onchange={routingNumberChange}></lightning-input>
+
+        <br/>
+        <lightning-button variant="brand" label={buttonLabel} title="Primary action" onclick={handleSaveClick}
+                          class=slds-m-vertical_medium></lightning-button>
+    </div>
+    <template if:true={spinner}>
+        <div class="exampleHolder">
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+    </template>
+</template>

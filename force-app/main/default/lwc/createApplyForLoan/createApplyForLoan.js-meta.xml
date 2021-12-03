@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <description>Create Apply For Loan</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Create Apply For Loan</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="buttonLabel" type="String" default="Proceed with sign up"/>
+            <property name="templateId" type="String" default="1f0157b4-3190-408b-ab6d-cb31fd337491"/>
+            <property name="description" type="String" default="Embedded Signing"/>
+            <property name="sessionId" type="String" default="asdas"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

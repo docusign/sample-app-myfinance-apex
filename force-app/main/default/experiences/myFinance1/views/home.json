@@ -1,0 +1,83 @@
+{
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "6b9b60d1-982e-4dca-bfc2-55be556794c4",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "e8d3b5a5-30c3-41ae-9887-78e259d70427",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "#fde3b6 ",
+        "buttonText" : "Get started ",
+        "checkListHeader" : "DocuSign features ",
+        "checkListItemsString" : "Update recipient information;Create envelope from HTML import;Fill tab data;Embedded signing (recipient view) ",
+        "mainIconName" : "applyForLoan",
+        "mainText" : "Apply for a Loan ",
+        "pageName" : "apply-for-loan"
+      },
+      "componentName" : "c:actionCMP",
+      "id" : "d97e31a2-9ed5-490b-9efa-11cc821a650a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4b5567e9-a3ad-489c-ac83-6f3cb884aca9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><b style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 26px;\">Resources</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><a href=\"https://www.docusign.com/esignature/sign-documents-free\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(255, 153, 0);\">Get a free demo account</a><span style=\"font-size: 16px;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href=\"https://developers.docusign.com/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; color: rgb(255, 153, 0);\">DocuSign developer center</a><span style=\"font-size: 16px; color: rgb(255, 153, 0);\"> </span></p><p><br></p><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "dbafd36d-c6f7-48dd-91cc-a54382eec6f5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "445b79a3-f044-4ae5-86a5-eb8ccf8e528d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Finance "
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6b476033-64bc-446d-b272-9e942939add1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "40466ea9-f335-4150-93ee-074d0d0e84e4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "#bfd6b4",
+        "buttonText" : "Get started ",
+        "checkListHeader" : "DocuSign features ",
+        "checkListItemsString" : "Update recipient information;Create envelope from HTML import;Fill tab data;Embedded signing (recipient view) ",
+        "mainIconName" : "transfer",
+        "mainText" : "Authorize Wire Transfer",
+        "pageName" : "authorize-wire-transfer"
+      },
+      "componentName" : "c:actionCMP",
+      "id" : "2c415638-687c-472e-b3e1-dea0b927724f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f648f71e-06e8-4bd0-95d0-d90a164b75f1",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

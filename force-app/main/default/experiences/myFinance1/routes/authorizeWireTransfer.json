@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "4045c048-4c00-4d76-9c50-85015c7f45a5",
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "configurationTags" : [ ],
+  "id" : "923db6a2-6738-44e4-9aef-d4597f4fd4f1",
+  "label" : "Authorize Wire Transfer",
+  "pageAccess" : "Public",
+  "routeType" : "custom-authorize-wire-transfer",
+  "type" : "route",
+  "urlPrefix" : "authorize-wire-transfer"
+}

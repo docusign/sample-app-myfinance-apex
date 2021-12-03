@@ -1,0 +1,28 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "MyFinance",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "MyFinance": "0Ho5e000000fxedCAA",
+        "MyFinance@0.1.0-1": "04t5e000000UoLtAAK",
+        "MyFinance@0.1.0-2": "04t5e000000UppcAAC",
+        "MyFinance@0.1.0-3": "04t5e000000UpphAAC",
+        "MyFinance@0.1.0-4": "04t5e000000UptuAAC",
+        "MyFinance@0.1.0-5": "04t5e000000UvzFAAS",
+        "MyFinance@0.1.0-6": "04t5e000000UvzKAAS",
+        "MyFinance@0.1.0-7": "04t5e000000UvzPAAS",
+        "MyFinance@0.1.0-8": "04t5e000000UvzUAAS",
+        "MyFinance@0.1.0-9": "04t5e000000UvzZAAS",
+        "MyFinance@0.1.0-10": "04t5e000000UxoQAAS",
+        "MyFinance@0.1.0-11": "04t5e000000UxwlAAC"
+    }
+}

@@ -1,0 +1,61 @@
+.featuresBlock {
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.separateLine {
+    width: 80%;
+    margin: 2rem auto;
+    background: white;
+    height: 0.15rem;
+    border-radius: 0.2rem;
+    opacity: 0.3;
+}
+
+.actionBlock {
+    border-radius: 2rem;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.getStartedBtn {
+    background: #ff921e;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 3rem !important;
+}
+
+.getStartedBtn:active {
+    border: 2px solid black;
+}
+
+.getStartedBtn > a {
+    text-decoration: blink !important;
+    color: white;
+}
+
+.imageButtonBlock {
+    text-align: center;
+}
+
+.imageButtonBlock > img {
+    margin: 2rem;
+}
+
+.imageButtonBlock > h2 {
+    font-size: 2rem !important;
+}
+
+.checkIcon{
+    margin-right: 0.5rem;
+}
+
+.mainText{
+    margin-inline: 1rem;
+}

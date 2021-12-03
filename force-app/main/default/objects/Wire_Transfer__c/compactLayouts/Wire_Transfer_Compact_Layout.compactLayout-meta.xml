@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wire_Transfer_Compact_Layout</fullName>
+    <fields>Full_Name__c</fields>
+    <fields>Amount_of_Transfer__c</fields>
+    <fields>Account_Number__c</fields>
+    <fields>Date__c</fields>
+    <label>Wire Transfer Compact Layout</label>
+</CompactLayout>

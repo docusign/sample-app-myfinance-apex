@@ -1,0 +1,494 @@
+{
+  "activeBrandingSetId" : "ebf309d4-66c0-4f43-bd84-875f5df7e7ac",
+  "customCSS" : ".customFooter {\n    position: fixed !important;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    background-color: #646372;\n    color: white;\n    text-align: center;\n    padding: #fde3b6;\n}\n\n.header {\n    position: static !important;\n}\n\n.comm-user-profile-menu__login-button {\n    border: none !important;\n    background: inherit !important;\n}\n\n.comm-user-profile-menu__login-button:hover {\n    text-decoration: underline !important;\n}\n\n.salesforceIdentityLoginForm2 .uiButton{\n    border-radius: 3rem !important;\n}\n\n.salesforceIdentityForgotPassword2 .uiButton{\n     border-radius: 3rem !important;\n}\n\n.salesforceIdentitySelfRegister2 .uiButton{\n     border-radius: 3rem !important;\n}\n\n.slds-button_brand{\n    border-radius: 3rem !important;\n    color: white;\n    background-color: #ff921e;\n}\n\n.slds-button_brand:hover{\n     color: white;\n}\n\narticle{\n    border: none !important;\n}\n\n.flowruntimeBody{\n     background: #eeeeee;\n    border-radius: 1rem;   \n        padding: 2rem 1rem;\n}\n\n.slds-select_container .slds-select {\n    border: 1px solid silver !important;\n    border-radius: 0 !important;\n}\n\n.slds-input{\n      border: 1px solid silver !important;\n    border-radius: 0 !important;\n}\n\n.siteforceSldsOneColLayout{\n    margin: 0 auto !important;\n    max-width: 1200px !important;\n}",
+  "developerName" : "citizen",
+  "id" : "48df8f20-17a4-40e9-8ebd-81cec86dd429",
+  "label" : "Citizen",
+  "layouts" : {
+    "Home" : "e1e0f01c-66f5-4b81-ad6e-6298a11b3e11",
+    "Inner" : "8f7bd3d8-c0f6-4519-9509-e4369b512d57",
+    "Login" : "8a13b011-8a58-4e56-b3b4-6800748cf69a",
+    "ServiceNotAvailable" : "c3eecc2c-65de-473d-957d-b4d7f0802a1e"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "8a13b011-8a58-4e56-b3b4-6800748cf69a",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "3802fa30-4a68-4a84-b63a-b1d0b5bc18e8",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "7e1073f3-776d-4c01-b74b-1fee2b7706cb",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"customFooter\">\n©2021 DocuSign Inc. \n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "5a8ac174-f389-431f-9f26-6536de26b48f",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "8507e760-d920-4398-8197-8d49973191d6",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 71, 100, 0.8)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "8f7bd3d8-c0f6-4519-9509-e4369b512d57",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255) url(/sfsites/c/file-asset/desktop_bg?v=1) center center /cover",
+          "backgroundOverlayColor" : "rgba(255, 255, 255, 0)",
+          "borderBottomColor" : "rgba(255, 255, 255, 0.5)",
+          "centerAlignLogo" : false,
+          "collapseNavMenu" : false,
+          "containHeader" : true,
+          "containHeaderWidth" : 1200,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(0, 0, 0)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "headerHeight" : 5,
+          "linkActiveBorderColor" : "rgb(0, 0, 0)",
+          "linkColor" : "rgb(0, 0, 0)",
+          "linkHoverColor" : "rgba(4, 0, 0, 0.9)",
+          "linkTextShadowColor" : "rgba(76, 76, 76, 0)",
+          "logoWidth" : 150,
+          "searchStyle" : "collapsed",
+          "showAppLauncher" : false,
+          "showNavMenuOnLeft" : true,
+          "showNotifications" : true,
+          "showProfileMenu" : false,
+          "showSearch" : false
+        },
+        "componentName" : "forceCommunity:themeHeaderCompact",
+        "id" : "167fee36-a426-46f3-a971-adf4384db1fb",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "buttonBorderColor" : "rgba(240, 240, 240, 0)",
+              "buttonBorderRadius" : 20,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "",
+              "buttonTextHoverColor" : "",
+              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "29025caa-ca39-43f5-9d45-845caf2eb6ac",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "9282a5e2-74dd-47e6-9be7-114b2fc63946",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "#FFFFFF",
+              "borderColor" : "rgba(0, 0, 0, 0.8)",
+              "borderRadius" : 20,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgba(0, 0, 0, 0.8)",
+              "placeholderText" : "Search...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "showSearchButton" : false,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 5,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "1d1ba2d7-ca2d-4b92-982d-497127409448",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "5c40d32f-3c36-4827-a511-13bc358c7bec",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "right",
+              "navItemThreshold" : 4,
+              "navigationMenuEditorRefresh" : "Default_Navigation"
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "952fe652-8969-4a3b-b638-c01648006ad0",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "b4395bb9-a8f1-47d3-ae24-a30d2cc0c09b",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "id" : "bca879ab-97b0-4c17-8346-2ac8646b08cc",
+          "regionName" : "cartIcon",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "afcbd316-05be-4e6a-90e7-60cd61a4fae2",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: #262626",
+          "bgOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "captionText" : "Summer Beach, California",
+          "captionTextColor" : "#FFFFFF",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "contentAlignment" : "center",
+          "contentWidth" : 70,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Make Reservation",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 2,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgba(255, 255, 255, 0.2)",
+          "ctaBtnTwoBorderColor" : "#FFFFFF",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "",
+          "ctaBtnTwoTextColor" : "#FFFFFF",
+          "ctaBtnTwoTextHoverColor" : "#FFFFFF",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 300,
+          "heroWidth" : 1440,
+          "showCaption" : true,
+          "showSubtitle" : false,
+          "showTitle" : true,
+          "subtitleText" : "",
+          "subtitleTextColor" : "#FFFFFF",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "titleText" : "Welcome to Paradise.",
+          "titleTextColor" : "#FFFFFF",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "50108a2d-0745-464f-a1e6-0db5da985c16",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgba(255, 255, 255, 0)",
+              "borderColor" : "#FFFFFF",
+              "borderRadius" : 25,
+              "borderStyle" : "bottomborder",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "#FFFFFF",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(255, 255, 255, 0.8)",
+              "publicDropdownBackgroundColor" : "#FFFFFF",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "#F0F0F0",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showSearchButton" : false,
+              "textColor" : "#FFFFFF",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "9e8fa25c-d258-4bd8-8544-a852439d05af",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "06b805ec-a223-476a-ba22-666434da35b0",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "8c2cd84b-4e1c-4fe1-8222-f53440d1c3c4",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"customFooter\">\n©2021 DocuSign Inc. \n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "61eceb26-efdf-42d6-b119-f2578d88aa87",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "e6f5108e-e1c8-4fdc-8436-877ac571046b",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(2, 2, 2, 0.8)",
+      "isHeaderPinned" : true,
+      "isHeroUnderHeader" : true,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "e1e0f01c-66f5-4b81-ad6e-6298a11b3e11",
+    "label" : "Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgba(255,255,255,0)",
+          "backgroundOverlayColor" : "rgba(245, 245, 245, 0.3)",
+          "borderBottomColor" : "rgba(255, 255, 255, 0)",
+          "centerAlignLogo" : false,
+          "collapseNavMenu" : false,
+          "containHeader" : true,
+          "containHeaderWidth" : 1200,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgba(126, 126, 126, 0)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "headerHeight" : 5,
+          "linkActiveBorderColor" : "rgb(0, 0, 0)",
+          "linkColor" : "rgb(6, 6, 6)",
+          "linkHoverColor" : "rgba(15, 15, 15, 0.44)",
+          "linkTextShadowColor" : "rgba(255, 255, 255, 0)",
+          "logoWidth" : 150,
+          "searchStyle" : "collapsed",
+          "showAppLauncher" : false,
+          "showNavMenuOnLeft" : true,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : false
+        },
+        "componentName" : "forceCommunity:themeHeaderCompact",
+        "id" : "0ba06b56-b5da-4d95-a6fe-777d64d0a3c5",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "rgba(255, 255, 255, 0)",
+              "buttonBorderColor" : "rgba(240, 240, 240, 0)",
+              "buttonBorderRadius" : 50,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "rgb(0, 0, 0)",
+              "buttonTextHoverColor" : "",
+              "customizableUserProfileMenuEditor" : "Default_Navigation",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "91376c62-5eaf-4c63-96ce-29700e40acec",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "d6bd3b91-6589-4666-8a3d-d31411dbd82f",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "#FFFFFF",
+              "borderColor" : "rgba(0, 0, 0, 0.8)",
+              "borderRadius" : 20,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgba(0, 0, 0, 0.8)",
+              "placeholderText" : "Search...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "showSearchButton" : false,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 5,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "3f932f17-c6ab-4ec5-846f-f4f4c6a6b034",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "eb1a4c9f-a409-452c-a235-e92e7fdc563c",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "Default_Navigation",
+              "hideAppLauncher" : true,
+              "menuAlignment" : "right"
+            },
+            "componentName" : "forceCommunity:multiLevelNavigation",
+            "id" : "fe1163c1-2285-4ca2-a818-043a9667f644",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "68439cce-917e-40a2-91ee-9ff2606fc3d7",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "id" : "1187ab91-bdf1-4bcb-940b-a88bb391b26c",
+          "regionName" : "cartIcon",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "9a2048e2-2111-477e-9822-4acae3f7080b",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(255,255,255) url(/sfsites/c/file-asset/desktop_bg?v=1) top left /cover",
+          "bgOverlayColor" : "rgba(255, 255, 255, 0.3)",
+          "captionText" : "Summer Beach, California",
+          "captionTextColor" : "#FFFFFF",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "contentAlignment" : "center",
+          "contentWidth" : 70,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Make Reservation",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 2,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgba(255, 255, 255, 0.2)",
+          "ctaBtnTwoBorderColor" : "#FFFFFF",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "",
+          "ctaBtnTwoTextColor" : "#FFFFFF",
+          "ctaBtnTwoTextHoverColor" : "#FFFFFF",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : false,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 91,
+          "heroWidth" : 872,
+          "showCaption" : false,
+          "showSubtitle" : true,
+          "showTitle" : true,
+          "subtitleText" : "Discover the ease and power of DocuSign MyFinance ",
+          "subtitleTextColor" : "rgb(0, 0, 0)",
+          "subtitleTextShadowColor" : "rgba(255, 255, 255, 0.7)",
+          "titleText" : "Create one  click UI for financial services ",
+          "titleTextColor" : "rgb(0, 0, 0)",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "85e9e0d3-3401-44ef-9b1c-18f640b3679a",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgba(255, 255, 255, 0)",
+              "borderColor" : "#FFFFFF",
+              "borderRadius" : 25,
+              "borderStyle" : "bottomborder",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "#FFFFFF",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(255, 255, 255, 0.8)",
+              "publicDropdownBackgroundColor" : "#FFFFFF",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "#F0F0F0",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showSearchButton" : false,
+              "textColor" : "#FFFFFF",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "efa4851a-e62d-4d2d-8372-db76e61c060d",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "bc446b72-f970-4c25-88a5-57f60ef177c4",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3cf48388-eeca-48d3-b710-75c425fa271f",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"customFooter\">\n©2021 DocuSign Inc. \n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "05988619-ea22-44ee-9c6d-c8aabdb51d64",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "7277386c-5492-4c4a-9550-0dcb2cabb852",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "c3eecc2c-65de-473d-957d-b4d7f0802a1e",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "af7e5bd8-1b3e-4c09-a452-7e42efa2ec8b",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "760e2b79-ccd9-47ae-9079-9c8f9394cef5",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

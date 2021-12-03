@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>myFinance</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>GitHub source</label>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://github.com/docusign/sample-app-myfinance-apex</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Status</label>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/status</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

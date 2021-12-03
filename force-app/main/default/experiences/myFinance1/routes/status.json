@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "73e717e3-0581-4caa-b537-ae71f5c32ccf",
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "configurationTags" : [ ],
+  "id" : "c12531c1-0c0d-40fc-87c2-2eb98b9c14a7",
+  "label" : "Status",
+  "pageAccess" : "Public",
+  "routeType" : "custom-status",
+  "type" : "route",
+  "urlPrefix" : "status"
+}

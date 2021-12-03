@@ -1,0 +1,65 @@
+{
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "0b82ff09-b79d-4aee-b1dd-5d644ac86097",
+  "label" : "New Loan",
+  "regions" : [ {
+    "id" : "26e9ba45-6668-4637-914b-29ea6abb983b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonLabel" : "Proceed with sign up",
+        "description" : "Embedded Signing",
+        "sessionId" : "asdas",
+        "templateId" : "071dba77-2709-463e-91a8-d76c6a58f557"
+      },
+      "componentName" : "c:createApplyForLoan",
+      "id" : "ced5ec78-0926-4aee-be71-cdfd76ac117f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "52b3c508-e68e-419e-b9cd-75b96ae35ef8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "htmlText" : "<b>This sample features:</b><br><ul><li>Embedded signing (recipient view)</li><li>Templates</li><li>Fill tab data</li></ul> <h3>Code flow:</h3><h4>Step 1</h4> <p>When the form is submitted we use the <a href=\"\" style=\"color: #ff921e\">Envelope Service</a> to create a new envelope with the getEmptyEnvelope method. The newEmbeddedSigner method on the Recipient object creates an embedded signer for the current user.</p> <p>We use the <a href=\"\"  style=\"color: #ff921e\">Document</a> class to create a document from a DocuSign template and add it to the envelope.</p><p> We place <a  href=\"\" style=\"color: #ff921e\">tabs</a> on the document by creating Tab objects and adding them to the <a href=\"\" style=\"color: #ff921e\">Recipient</a> with the withTabs method. The document includes tabs of a variety of different types including SignHere tabs, Name tabs, and Number tabs.</p><h4>Step2</h4><p>To initiate an embedded signing session we use the <a href=\"\" style=\"color: #ff921e\">Signing Service</a>. The getEmbeddedSigningUrl method gives us the url where we can redirect the user to sign the document. The envelope is also sent to the user with the <a href=\"\"  style=\"color: #ff921e\">EnvelopeService.sendEnvleope</a> method. Once the user has signed they are redirected back to the application.</p>",
+        "sectionHeader" : "Behind the scenes"
+      },
+      "componentName" : "c:informationAccordionCMP",
+      "id" : "fba776cb-ee51-40be-a44d-4a2f5b902be7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3f4247a0-d385-4bc3-b0e4-f475c0abf139",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "260e97c3-c73e-4842-9e01-9d4fb61f3cf3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "New Loan"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4b2c2b62-94b7-4e4a-99c3-1c00dadf6c5e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b856a10d-82ef-474c-89e8-446fd80eb9bd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-new-loan"
+}

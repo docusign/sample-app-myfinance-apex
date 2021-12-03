@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6515eed5-d0a0-4c76-ae0d-e4f65d0246fb",
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "configurationTags" : [ ],
+  "id" : "dc058e2f-3a54-44f0-84ca-731cb1cc5771",
+  "label" : "Loan List",
+  "objectApiName" : "Loan__c",
+  "routeType" : "list-a0T",
+  "type" : "route",
+  "urlPrefix" : "loan"
+}

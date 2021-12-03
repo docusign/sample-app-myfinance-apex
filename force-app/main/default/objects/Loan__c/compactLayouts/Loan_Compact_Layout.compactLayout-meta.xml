@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loan_Compact_Layout</fullName>
+    <fields>Full_Name__c</fields>
+    <fields>Email__c</fields>
+    <fields>Desire_Loan_Amount__c</fields>
+    <fields>Payment_Terms__c</fields>
+    <fields>Phone_Number__c</fields>
+    <label>Loan Compact Layout</label>
+</CompactLayout>

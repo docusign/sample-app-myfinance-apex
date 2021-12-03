@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Action Cmp</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="pageName" type="String" description="Enter Page url witout `\` symbol"/>
+            <property name="mainIconName" type="String" default="applyForLoan" description="available value `applyForLoan` or `transfer`"/>
+            <property name="mainText" type="String" default="Apply for a Loan"/>
+            <property name="backgroundColor" type="String" default="#fde3b6"/>
+            <property name="checkListItemsString" type="String" default="Update recipient information;Create envelope from HTML import;Fill tab data;Embedded signing (recipient view)" description="Items needed be separate by `;` symbol"/>
+            <property name="checkListHeader" type="String" default="DocuSign features"/>
+            <property name="buttonText" type="String" default="Get started"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,65 @@
+{
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "4045c048-4c00-4d76-9c50-85015c7f45a5",
+  "label" : "Authorize Wire Transfer",
+  "regions" : [ {
+    "id" : "a2ced6df-eec1-403b-b70b-087f2b3f3f9a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonLabel" : "Proceed with sign up",
+        "description" : "Embedded Signing",
+        "sessionId" : "as",
+        "templateId" : "db7b7d46-1cc7-40e1-b865-f62e53b87a33"
+      },
+      "componentName" : "c:createWireTransfer",
+      "id" : "b2a22874-fdd0-4a01-97d6-921b21426407",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "14d31cc8-62e4-46e5-b516-4d8097fe4f56",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "htmlText" : "<b>This sample features:</b><br><ul><li>Embedded signing (recipient view)</li><li>Templates</li><li>Fill tab data</li></ul> <h3>Code flow:</h3><h4>Step 1</h4> <p>When the form is submitted we use the <a href=\"\" style=\"color: #ff921e\">Envelope Service</a> to create a new envelope with the getEmptyEnvelope method. The newEmbeddedSigner method on the Recipient object creates an embedded signer for the current user.</p> <p>We use the <a href=\"\"  style=\"color: #ff921e\">Document</a> class to create a document from a DocuSign template and add it to the envelope.</p><p> We place <a  href=\"\" style=\"color: #ff921e\">tabs</a> on the document by creating Tab objects and adding them to the <a href=\"\" style=\"color: #ff921e\">Recipient</a> with the withTabs method. The document includes tabs of a variety of different types including SignHere tabs, Name tabs, and Number tabs.</p><h4>Step2</h4><p>To initiate an embedded signing session we use the <a href=\"\" style=\"color: #ff921e\">Signing Service</a>. The getEmbeddedSigningUrl method gives us the url where we can redirect the user to sign the document. The envelope is also sent to the user with the <a href=\"\"  style=\"color: #ff921e\">EnvelopeService.sendEnvleope</a> method. Once the user has signed they are redirected back to the application.</p>",
+        "sectionHeader" : "Behind the scenes"
+      },
+      "componentName" : "c:informationAccordionCMP",
+      "id" : "4409f6ad-ab33-48ec-a7d8-35b7031895f1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "042f694c-bf22-4d03-908f-82e811f4cd66",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "384de0b1-57c5-4d6e-b94a-db1a6c396955",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Authorize Wire Transfer"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2dcaca85-7fc5-47ba-bf03-cef5ebaa3aeb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d60e208-ed6c-4d5b-8899-52a3cd80ca3b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-authorize-wire-transfer"
+}

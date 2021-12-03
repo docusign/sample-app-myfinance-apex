@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/actionCMP": [
+                "actionCMP/actionCMP.js"
+            ],
+            "c/flowControlCMP": [
+                "flowControlCMP/flowControlCMP.js"
+            ],
+            "c/historyCMP": [
+                "historyCMP/historyCMP.js"
+            ],
+            "c/informationAccordionCMP": [
+                "informationAccordionCMP/informationAccordionCMP.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    "paths": {
+        "c/*": [
+            "*"
+        ]
+    }
+}

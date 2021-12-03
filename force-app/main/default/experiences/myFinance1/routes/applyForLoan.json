@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0b82ff09-b79d-4aee-b1dd-5d644ac86097",
+  "appPageId" : "61f7804f-3d53-4a68-8fe9-08332af9e480",
+  "configurationTags" : [ ],
+  "id" : "58f6dbb9-8d43-4ef9-bd63-47cd3ad68819",
+  "label" : "Apply for Loan",
+  "pageAccess" : "Public",
+  "routeType" : "custom-new-loan",
+  "type" : "route",
+  "urlPrefix" : "apply-for-loan"
+}

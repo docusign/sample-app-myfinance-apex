@@ -1,0 +1,35 @@
+<!--
+  @description       : 
+  @author            : ymazuryk
+  @group             : 
+  @last modified on  : 07-01-2021
+  @last modified by  : ymazuryk
+  Modifications Log 
+  Ver   Date         Author     Modification
+  1.0   07-01-2021   ymazuryk   Initial Version
+-->
+<template>
+    <div class="actionBlock" style={backgroundCss}>
+        <div class="imageButtonBlock">
+            <img src={mainIconPath}/>
+            <br>
+            <h2 class="mainText">{mainText}</h2>
+            <br>
+                <a href={pageUrl}>
+                    <button class="getStartedBtn" onclick={onClickCreateSessionObject}>{buttonText}</button>
+                </a>
+        </div>
+        <div class="separateLine"></div>
+        <div class="featuresBlock">
+            <h2 class="slds-m-vertical_small">
+                {checkListHeader}:
+            </h2>
+            <template for:each={checkList} for:item="item">
+                <p key={item} class="slds-m-around_xx-small">
+                    <img src={checkIcon} class="checkIcon"/>
+                    {item}
+                </p>
+            </template>
+        </div>
+    </div>
+</template>
