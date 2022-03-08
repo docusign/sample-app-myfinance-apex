@@ -27,7 +27,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "richTextValue" : "<div class=\"customFooter\">\n©2021 DocuSign Inc. \n</div>"
+          "richTextValue" : "<div class=\"customFooter\">\n©2022 DocuSign Inc. \n</div>"
         },
         "componentName" : "forceCommunity:htmlBlock",
         "id" : "5a8ac174-f389-431f-9f26-6536de26b48f",
@@ -241,7 +241,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "richTextValue" : "<div class=\"customFooter\">\n©2021 DocuSign Inc. \n</div>"
+          "richTextValue" : "<div class=\"customFooter\">\n©2022 DocuSign Inc. \n</div>"
         },
         "componentName" : "forceCommunity:htmlBlock",
         "id" : "61eceb26-efdf-42d6-b119-f2578d88aa87",
@@ -455,7 +455,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "richTextValue" : "<div class=\"customFooter\">\n©2021 DocuSign Inc. \n</div>"
+          "richTextValue" : "<div class=\"customFooter\">\n©2022 DocuSign Inc. \n</div>"
         },
         "componentName" : "forceCommunity:htmlBlock",
         "id" : "05988619-ea22-44ee-9c6d-c8aabdb51d64",
